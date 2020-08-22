@@ -1,2 +1,4 @@
-com/caffe/monitor/alarm/Log4jMonitorFilter.class
-com/caffe/monitor/alarm/Test.class
+com/caffe/monitor/alarm/filter/Log4jMonitorFilter.class
+com/caffe/monitor/alarm/pojo/bo/LogMonitorBO.class
+com/caffe/monitor/alarm/util/Log4jMonitorAlarm.class
+com/caffe/monitor/alarm/pojo/Test.class
