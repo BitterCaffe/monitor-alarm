@@ -2,7 +2,7 @@ package com.caffe.monitor.alarm.filter;
 
 
 import com.caffe.monitor.alarm.pojo.bo.LogMonitorBO;
-import com.caffe.monitor.alarm.util.Log4jMonitorAlarm;
+import com.caffe.monitor.alarm.util.Log4jAlarm;
 import org.apache.log4j.spi.Filter;
 import org.apache.log4j.spi.LoggingEvent;
 
@@ -16,7 +16,7 @@ public class Log4jMonitorFilter extends Filter {
     public int decide(LoggingEvent loggingEvent) {
         // add in memory queue
         LogMonitorBO logMonitorBO = getMessage(loggingEvent);
-        Log4jMonitorAlarm.addException(logMonitorBO);
+        Log4jAlarm.addException(logMonitorBO);
         return Filter.NEUTRAL;
     }
 

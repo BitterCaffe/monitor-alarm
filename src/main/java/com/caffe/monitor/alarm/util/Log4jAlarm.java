@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2020/8/22
  * @description: 内存队列+异步消费
  */
-public class Log4jMonitorAlarm {
+public class Log4jAlarm {
     /**
      * array block query max capacity
      */

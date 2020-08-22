@@ -13,27 +13,28 @@
         <slf4j.version>1.7.25</slf4j.version>
         <slf4j.api>1.7.21</slf4j.api>
         <fastjson.version>1.2.70</fastjson.version>
+        <lombok.version>1.16.16</lombok.version>
     </properties>
 
     <dependencies>
+        <!--log4j-->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>${log4j.version}</version>
         </dependency>
-
-        <!--<dependency>-->
-        <!--<groupId>org.slf4j</groupId>-->
-        <!--<artifactId>slf4j-api</artifactId>-->
-        <!--<version>1.7.6</version>-->
-        <!--</dependency>-->
-
+        <!--fastjson-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
         </dependency>
-
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
 
     </dependencies>
 </project>
